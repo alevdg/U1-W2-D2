@@ -90,7 +90,7 @@ const var1 = [1,2,3,4]
 const var2 = [5,6,7]
 const var3 = [8,9,10]
 let numbersList = [var1,var2,var3]
-numbersList.sort()
+numbersList.sort((a,b) => b-a)// (a,b) => b-a) - ordina gli elementi dell’array in ordine decrescente
 console.log(numbersList)
 
 /* ESERCIZIO 8
